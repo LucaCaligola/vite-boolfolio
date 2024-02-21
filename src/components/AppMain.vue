@@ -7,10 +7,15 @@
             </div>
 
             <ul>
-                <li v-for="project in projects" :key="project.id">
+                <li v-for="project in projects" :key="project.id" class="py-3">
+                   
+                    <h3 class="">
+                        {{ project.title }}
+                    </h3>
+                    <img :src="project.picture" alt="" class="w-50">
 
-                    {{ project.title }}
-
+                    <p> Description: {{ project.description }}</p>
+                    <p> Languages: {{ project.languages }}</p>
                 </li>
             </ul>
 
