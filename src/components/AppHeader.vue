@@ -1,7 +1,5 @@
-<template lang="">
-    <div>
-        Header
-    </div>
+<template>
+  
 </template>
 <script>
 export default {
